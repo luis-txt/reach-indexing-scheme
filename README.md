@@ -62,19 +62,3 @@ Tables can also be generated using:
 python3 scripts/create_table.py [sub-directory] [field]
 ```
 where *[sub-directory]* refers to a sub-directory of the *benches* directory while *field* is a field of the generated benchmarking data.
-
-_More details on how to use the scripts can be found in *Appendix A* of the project-report._
-
-## Roadmap
-### Milestone 1 (1-2 weeks) [✓]
-Implementation of the graph data structure and the baseline of the algorithm (e.g. DFS).
-Selection of the benchmark data.
-
-### Milestone 2 (3-4 weeks) [✓]
-Implementation of the reachability indexing scheme. This includes the transformation to the DAG, the chain decomposition and the creation of the indexing scheme.
-
-### Milestone 3 (1 week) [✓]
-Comparative evaluation (scalability, memory consumption, width of the decomposition, ...).
-
-### Milestone 4 (1-2 weeks) [✓]
-Writing the report.
