@@ -1,7 +1,11 @@
 # Fast Reachability Using Indexed Transitivity (FRUIT)
 
 ## Description
-This repository contains an implementation of the reachability indexing scheme from the paper "Fast Reachability Using DAG Decomposition" by Giorgos Kritikakis and Ioannis G. Tollis from the University of Crete. This appraoch includes the following steps: 
+This repository contains an implementation of the reachability indexing scheme from the paper "Fast Reachability Using DAG Decomposition" by Giorgos Kritikakis and Ioannis G. Tollis from the University of Crete.
+Giorgos Kritikakis and Ioannis G. Tollis. Fast Reachability Using DAG Decomposition. In 21st International Symposium on Experimental Algorithms (SEA 2023). Leibniz International Proceedings in Informatics (LIPIcs), Volume 265, pp. 2:1-2:17, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2023) [https://doi.org/10.4230/LIPIcs.SEA.2023.2](https://doi.org/10.4230/LIPIcs.SEA.2023.2)
+
+
+The appraoch includes the following steps: 
 - Transforming a given directed graph to a directed acyclic graph (DAG) using Tarjan's strongly connected components algorithm
 - Creating a chain decomposition of the calculated DAG
 - Reducing the number of transitive edges of the DAG using the described heuristic from the paper
