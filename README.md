@@ -2,6 +2,7 @@
 
 ## Description
 This repository contains an implementation of the reachability indexing scheme from the paper "Fast Reachability Using DAG Decomposition" by Giorgos Kritikakis and Ioannis G. Tollis from the University of Crete.
+
 Giorgos Kritikakis and Ioannis G. Tollis. Fast Reachability Using DAG Decomposition. In 21st International Symposium on Experimental Algorithms (SEA 2023). Leibniz International Proceedings in Informatics (LIPIcs), Volume 265, pp. 2:1-2:17, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2023) [https://doi.org/10.4230/LIPIcs.SEA.2023.2](https://doi.org/10.4230/LIPIcs.SEA.2023.2)
 
 
